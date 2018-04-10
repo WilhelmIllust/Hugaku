@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="z0M-6w-UwA">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Title-->
+        <scene sceneID="JyX-cd-0sI">
+            <objects>
+                <viewController id="z0M-6w-UwA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zlg-DT-1h3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pUo-WV-quM">
+                                <rect key="frame" x="17" y="20" width="340" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="11new-year" translatesAutoresizingMaskIntoConstraints="NO" id="85N-cT-769">
+                                        <rect key="frame" x="0.0" y="0.0" width="340" height="186"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LBQ-Wd-YmS">
+                                <rect key="frame" x="17" y="214" width="342" height="137"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">江都駿河町三井見世略図
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="wordWrap" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b9d-hx-q8t">
+                                <rect key="frame" x="17" y="301" width="340" height="346"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">三井見世是三井高利在1673年於駿河町（現在的東京千代田區日本橋室町）開創的越後屋吳服店。以不亂喊價而有名，生意非常興隆。 浮世繪中，除了北齋以外的作者，只要是描繪駿河町的圖一定會把這家店畫進去。本圖中，如同寺院建築般華麗的大屋頂，由下往上的角度，畫出了有名的招牌「現金　無掛直　吳服物品　組物　糸類」等文字。  北齋從低角度畫出大型的左右屋頂，中間搭配富士山的雪景，三個部分構成一幅圖。 右邊屋頂上是三位瓦片師傅，期中丟擲瓦片的動作型態和「本所立川」畫中的人物姿勢一樣。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.55034613610000005" green="0.66234451530000005" blue="0.44146782159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="DCd-yE-v3D"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="Tu9-NH-zZF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d4n-f4-Mk8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1352.8" y="-967.4662668665668"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="11new-year" width="3100" height="2110"/>
+    </resources>
+</document>

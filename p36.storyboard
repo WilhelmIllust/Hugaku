@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="PmC-Nu-dBD">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Title-->
+        <scene sceneID="Xq0-bs-QtU">
+            <objects>
+                <viewController id="PmC-Nu-dBD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="H5o-r2-z8P">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1LI-Uy-eGD">
+                                <rect key="frame" x="17" y="20" width="340" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="36ushibori" translatesAutoresizingMaskIntoConstraints="NO" id="PCf-bk-8Ar">
+                                        <rect key="frame" x="0.0" y="0.0" width="340" height="186"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c1N-ch-DQV">
+                                <rect key="frame" x="78" y="214" width="218" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">常州牛堀
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="wordWrap" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xV2-lJ-8Ib">
+                                <rect key="frame" x="17" y="257" width="340" height="390"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">冬日早朝寂靜的霞ヶ浦，蓬船上人家傾倒洗米水，敲打水面的聲音驚醒兩隻尚在假眠的白鷺，迎空飛起。  北齋是傑出的風景畫繪師當然是無庸置疑，但是北齋的人物素描也有卓越的功力。「富嶽三十六景」不僅畫出以各種角度眺望的富士山，也畫出於那些看得到富士山的土地上人們生活的點點滴滴。
+
+此畫描繪以蓑衣草或茅草編成屋頂的篷船上生活的人家，以洗米作為一天的開始。由斜切佔據畫面3分之2的蓬船及右上方富士山的大膽構圖，可察知北齋的力量。
+
+常州牛堀為現在的茨城縣潮來市，是屬〔裏富士〕的一幅。北齋此畫整體只以深深淺淺的藍繪出，更加深那冬天早朝的寒凍意象。這幅畫是這一系列浮世繪中的佳作。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.55034613610000005" green="0.66234451530000005" blue="0.44146782159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="UT0-PJ-gip"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="btN-Le-Cor"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WH5-E1-lt6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1352.8" y="-967.4662668665668"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="36ushibori" width="3100" height="2110"/>
+    </resources>
+</document>
